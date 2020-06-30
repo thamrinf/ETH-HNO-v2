@@ -198,7 +198,7 @@
         let min = 999999999;
         let max = 0;
         d3.csv(
-          "https://docs.google.com/spreadsheets/d/e/2PACX-1vQlNQbv1acPNwhMeCPQsDJki9vEAgRrL4GXUFqF3EA-seV9ilof4IIzaY8jfBjPkaY8ENh70vR1v6Oq/pub?output=csv"
+          "https://docs.google.com/spreadsheets/d/e/2PACX-1vQlNQbv1acPNwhMeCPQsDJki9vEAgRrL4GXUFqF3EA-seV9ilof4IIzaY8jfBjPkaY8ENh70vR1v6Oq/pub?gid=921400824&single=true&output=csv"
         ).then(function (bigdata) {
           bigdata.forEach(function (d, i) {
             if (_bigdata[d.ADM2_PCODE]) {
